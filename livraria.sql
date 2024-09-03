@@ -162,5 +162,3 @@ from cliente c
 left join pedido p on c.IdCliente = p.IdCliente
 left join itemPedido i on p.IdPedido = i.idPedido
 group by c.nome;
-
-4644375
